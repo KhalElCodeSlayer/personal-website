@@ -63,7 +63,7 @@ export default function Home() {
                 Python
               </h3>
               <p className="py-2">
-                I started taking python seriously in 2019 for a university course called "Introduction to Computing". This course gave me great confidence to go and conquer any problem I face in the computing world.
+                I started taking python seriously in 2019 for a university course called &quot;Introduction to Computing&quot;. This course gave me great confidence to go and conquer any problem I face in the computing world.
               </p>
               <h4 className="py-4 text-teal-600">Why I Love Python</h4>
               <p className="text-gray-800 py-1">It&apos;s a very nice, simple and straightforward language with a great supportive community. I also love the flexibility the language provides.</p>
