@@ -66,7 +66,7 @@ export default function Home() {
                 I started taking python seriously in 2019 for a university course called &quot;Introduction to Computing&quot;. This course gave me great confidence to go and conquer any problem I face in the computing world.
               </p>
               <h4 className="py-4 text-teal-600">Why I Love Python</h4>
-              <p className="text-gray-800 py-1">It&apos;s a very nice, simple and straightforward language with a great supportive community. I also love the flexibility the language provides.</p>
+              <p className="text-gray-800 py-1">It&apos;s a very nice, simple and straightforward language with a great supportive community. I also love the flexibility the language provides. I look forward to the amazing applications I will be build using this language</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={reactLogo} width={130} height={100} />
@@ -77,7 +77,7 @@ export default function Home() {
                 I discovered javascript in 2020 through a university IT course called web development. Web development was an amazing course that taught me the usefullness of javascript and made me understand why javascript is one of the most sought after skills in web development.
               </p>
               <h4 className="py-4 text-teal-600">Why I Love React</h4>
-              <p className="text-gray-800 py-1">React is an amazing, efficient and fun javascript library. I also love vue.js. However, I would choose react over vue.</p>
+              <p className="text-gray-800 py-1">React is an amazing, efficient and fun javascript library. I also love vue.js. However, I would choose react over vue. Thinking about being a master a react gets me excited.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={cLogo} width={100} height={100} />
