@@ -20,16 +20,16 @@ export default function Home() {
       <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:pd-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons dark:text-white md:text-xl">DevelopedbyCodeSlayer</h1>
+            <h1 className="font-burtons text-xs pr-3 dark:text-white md:text-xl" >DevelopedbyCodeSlayer</h1>
             <ul className="flex items-center">
-              <li>
-                day/night mode --&gt;
+              <li className="text-xs pr-2 md:text-base">
+                day/night mode -&gt;
               </li>
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-2xl"/>
               </li>
               <li className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">
-                <a href="https://drive.google.com/file/d/1YUhwYyLLlOZCsHwdSzSmDsGtp3WQ8BN-/view?usp=share_link" target="_blank" rel="noreferrer">Resume</a>
+                <a href="https://drive.google.com/drive/folders/1AXgqMNHuvE-ZcoZzw43rmkO3Ict0xJXl?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
               </li>
             </ul>
           </nav>
@@ -38,9 +38,11 @@ export default function Home() {
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">Quality Assurance, Full-stack Developer, Cyber Security</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">A proud graduate of Jamaica College and The University of the West Indies. I am an intelligent young man with a thirst for knowledge. If you can provide me with the opportunity to learn or display and develop my skills then I will be nothing but an asset to you in return.</p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <AiFillLinkedin />
-            <AiFillGithub />
+          <div className="text-5xl flex justify-center text-gray-600 dark:text-gray-400">
+          <a href="https://github.com/khalelcodeslayer" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+          </div>
+          <div className="text-2xl flex justify-center text-gray-600 dark:text-gray-400">
+            Github
           </div>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <Image src={khal} object-fit="cover" height={300} width={300} style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}/>
@@ -92,8 +94,8 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Are you interested in a competent person? Are you interested in someone who will find a way when the work gets hard instead of complaining? If you are looking for a <span className="text-teal-500"> smart </span>, <span className="text-teal-500"> efficient </span> individual with <span className="text-teal-500"> great communication skills </span> then congratulations! You can find some of my projects at <a className="text-red-300 dark:text-purple-300" href="https://github.com/khalelcodeslayer">github.com/khalelcodeslayer</a>. Here is a list of some accomplishments and accolades from high school and university years.
+            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Are you interested in a competent person? Are you interested in someone who will find a way when the work gets hard instead of complaining? If you are looking for a <span className="text-teal-500"> smart </span>, <span className="text-teal-500"> efficient </span> individual with <span className="text-teal-500"> great communication skills </span> then congratulations! You can find some of my projects at <a className="text-red-300 dark:text-purple-300" href="https://github.com/khalelcodeslayer" target="_blank" rel="noreferrer">github.com/khalelcodeslayer</a>. Additionally, you can click this <a className="text-red-300 dark:text-purple-300" href="https://drive.google.com/drive/folders/1AXgqMNHuvE-ZcoZzw43rmkO3Ict0xJXl?usp=sharing" target="_blank" rel="noreferrer">link</a> for my resume. Here is a list of some accomplishments and accolades from high school and university years.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-yellow-200">
               Successful completion of advanced proficiency Courses - Jamaica College, 2018 <br/>
