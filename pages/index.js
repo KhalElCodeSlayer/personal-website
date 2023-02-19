@@ -39,11 +39,21 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">A proud graduate of Jamaica College and The University of the West Indies. I am an intelligent young man with a thirst for knowledge. If you can provide me with the opportunity to learn or display and develop my skills then I will be nothing but an asset to you in return.</p>
           </div>
           <div className="text-5xl flex justify-center text-gray-600 dark:text-gray-400">
-          <a href="https://github.com/khalelcodeslayer" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+            <div className="mx-4">
+              <a href="https://www.linkedin.com/in/khalid-williams-052a8a252/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+                <div className="text-2xl flex justify-center text-gray-600 dark:text-gray-400">
+                Linkedin
+                </div>
+            </div>
+            <div className="mx-4">
+              <a href="https://github.com/khalelcodeslayer" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+              <div className="text-2xl flex justify-center text-gray-600 dark:text-gray-400">
+                Github
+              </div>
+            </div>
           </div>
-          <div className="text-2xl flex justify-center text-gray-600 dark:text-gray-400">
-            Github
-          </div>
+          
+          
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <Image src={khal} object-fit="cover" height={300} width={300} style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}/>
           </div>
