@@ -70,7 +70,9 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={pythonLogo} width={130} height={100} />
+              <div className="flex justify-center">
+                <Image src={pythonLogo} width={130} height={100} />
+              </div>            
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Python
               </h3>
@@ -81,7 +83,9 @@ export default function Home() {
               <p className="text-gray-800 py-1">It&apos;s a very nice, simple and straightforward language with a great supportive community. I also love the flexibility the language provides. I look forward to the amazing applications I will be build using this language</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={reactLogo} width={130} height={100} />
+              <div className="flex justify-center">
+                <Image src={reactLogo} width={130} height={100} />
+              </div>              
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 React.js
               </h3>
@@ -92,7 +96,9 @@ export default function Home() {
               <p className="text-gray-800 py-1">React is an amazing, efficient and fun javascript library. I also love vue.js. However, I would choose react over vue. Thinking about being a master a react gets me excited.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={cLogo} width={100} height={100} />
+              <div className="flex justify-center">
+                <Image src={cLogo} width={100} height={100} />
+              </div>             
               <h3 className="text-lg font-medium pt-8 pb-2 ">C</h3>
               <p className="py-2">
                 I have known about C programming from 2018. I initially learned about it at Jamaica College and then I had to do a course at The University of the West Indies in 2021 called Operating Systems.
