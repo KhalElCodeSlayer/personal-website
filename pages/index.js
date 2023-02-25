@@ -36,7 +36,7 @@ export default function Home() {
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Khalid Williams</h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">Quality Assurance, Full-stack Developer, Cyber Security</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">A proud graduate of Jamaica College and The University of the West Indies. I am an intelligent young man with a thirst for knowledge. If you can provide me with the opportunity to learn or display and develop my skills then I will be nothing but an asset to you in return.</p>
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">A proud graduate of Jamaica College and The University of the West Indies. I am a dedicated learner with strong communication and adaptability skills. I thrive in dynamic and fast-paced environments and am always eager to take on new challenges. I am passionate about continuous growth and believe that education and development are key to staying ahead in today's world.</p>
           </div>
           <div className="text-5xl flex justify-center text-gray-600 dark:text-gray-400">
             <div className="mx-4">
@@ -114,6 +114,7 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Are you interested in a competent person? Are you interested in someone who will find a way when the work gets hard instead of complaining? If you are looking for a <span className="text-teal-500"> smart </span>, <span className="text-teal-500"> efficient </span> individual with <span className="text-teal-500"> great communication skills </span> then congratulations! You can find some of my projects at <a className="text-red-300 dark:text-purple-300" href="https://github.com/khalelcodeslayer" target="_blank" rel="noreferrer">github.com/khalelcodeslayer</a>. Additionally, you can click this <a className="text-red-300 dark:text-purple-300" href="https://drive.google.com/drive/folders/1AXgqMNHuvE-ZcoZzw43rmkO3Ict0xJXl?usp=sharing" target="_blank" rel="noreferrer">link</a> for my resume. Here is a list of some accomplishments and accolades from high school and university years.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-yellow-200">
+              Bachelor&apos;s in Computer Science - UWI, 2022 <br/>
               Successful completion of advanced proficiency Courses - Jamaica College, 2018 <br/>
               School Leaving Diploma - Jamaica College, 2016 <br/>
               •	Represented UWI in basketball 2019, 2022 (placed second both times) <br/>
