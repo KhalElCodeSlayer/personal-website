@@ -113,7 +113,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Are you interested in a competent person? Are you interested in someone who will find a way when the work gets hard instead of complaining? If you are looking for a <span className="text-teal-500"> smart </span>, <span className="text-teal-500"> efficient </span> individual with <span className="text-teal-500"> great communication skills </span> then congratulations! You can find some of my projects at <a className="text-red-300 dark:text-purple-300" href="https://github.com/khalelcodeslayer" target="_blank" rel="noreferrer">github.com/khalelcodeslayer</a>. Additionally, you can click this <a className="text-red-300 dark:text-purple-300" href="https://drive.google.com/drive/folders/1AXgqMNHuvE-ZcoZzw43rmkO3Ict0xJXl?usp=sharing" target="_blank" rel="noreferrer">link</a> for my resume. Here is a list of some accomplishments and accolades from high school and university years.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-blue-300">
+            <p className="text-md py-2 leading-8 text-gray-900 dark:text-blue-300">
               Bachelor&apos;s in Computer Science - UWI, 2022 <br/>
               Successful completion of advanced proficiency Courses - Jamaica College, 2018 <br/>
               School Leaving Diploma - Jamaica College, 2016 <br/>
