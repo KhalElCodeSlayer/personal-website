@@ -60,7 +60,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className=" text-3xl py-1 dark:text-white">My Preferred Languages</h3>
+            <h3 className=" text-3xl py-1 dark:text-white">Preferred Languages</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I love coding. I have been writing programs from 2014 and havent stopped since. I love developing <span className="text-teal-500">new skills</span>, learning <span className="text-teal-500">new langauges</span> and <span className="text-teal-500">cool technologies</span>.
             </p>
